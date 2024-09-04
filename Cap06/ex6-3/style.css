@@ -1,0 +1,48 @@
+@charset "UTf-8";
+
+body {
+
+    background-image: linear-gradient(to left, rgba(26, 18, 25, 0.593), rgba(239, 239, 245, 0.764));
+
+}
+
+input{
+
+    background-color: rgba(113, 104, 112, 0.182);
+    padding: 5px;
+
+}
+
+img.normal {
+
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+
+img.alta {
+    
+    float: left;
+    height: 420px;
+    width: 300px;
+}
+
+h1 {
+    border-bottom-style: inset;
+ 
+}
+
+pre {
+
+    font-size: 1.2em;
+
+}
+
+.fonte-azul {color: blue;}
+
+.oculta {display: none;}
+
+.exibe {display: inline;}
+
+.italico {font-style: italic;}

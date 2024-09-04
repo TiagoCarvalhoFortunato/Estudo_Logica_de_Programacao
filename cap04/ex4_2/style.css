@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient( to left, rgba(255, 0, 0, 0.471), orange);
+    text-align: center;
+    
+}
+
+
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    text-shadow: 3px 3px 6px;
+}
+
+img {
+    margin: auto;
+    border-radius: 10%;
+    padding: 2px;
+    width: 300px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+form {
+    margin: 15px;
+}
+
+form p {
+    padding: 15px;
+}
+
+form p > input {
+    padding: 4px;
+}

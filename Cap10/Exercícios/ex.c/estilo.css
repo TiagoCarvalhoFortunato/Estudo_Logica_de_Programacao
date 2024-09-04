@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    margin: 2%;
+    background-image: linear-gradient(to right, rgba(80, 109, 125, 0.626), rgba(255, 255, 255, 0.568));
+}
+
+h1 {
+    text-align: center;
+}
+
+form > p {
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+.timesAdd {
+    margin: 4px;
+    padding: 2px;
+    text-align: right;
+}

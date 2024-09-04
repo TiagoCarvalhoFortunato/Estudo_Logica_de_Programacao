@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-image: radial-gradient(rgba(60, 60, 207, 0.537), #ffff);
+}
+
+
+.fonte-azul {color: blue;}
+
+.oculta {display: none;}
+
+.exibe {display: inline;}
+
+.italico {font-style: italic;}

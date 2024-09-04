@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body { background-color: rgba(92, 89, 89, 0.467); }
+h1 { border-bottom-style: inset;}
+pre { font-size: 1.2em;}
+span { margin-left: 70px;}
+select { width: 150px;}
+.detalhes { width: 380px; }
+.oculta { display: none;}
+.exibe {display: inline; }

@@ -1,0 +1,14 @@
+const prompt = require("prompt-sync")()
+
+const valor = Number(prompt("Valor R$: "))
+const parcela = Number(prompt("Parcelas: "))
+const valorParcela = Math.floor(valor / parcela)
+const parcelaFinal = valorParcela + (valor % parcela)
+
+for (let i = 1; i < parcela; i++) {
+
+    console.log(` ${i}º parcela R$: ${valorParcela.toFixed(2)} `)
+
+}
+
+console.log(` ${parcela}º parcela R$: ${parcelaFinal.toFixed(2)}`)

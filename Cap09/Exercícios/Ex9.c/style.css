@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:unset;
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2%;
+    background-image: linear-gradient(to right, rgba(71, 142, 196, 0.567), white);
+}
+
+form > p {
+    padding: 2px;
+    font-style:unset;
+    font-weight: bolder;
+}
+
+pre {
+    padding: 5px;
+}
+
+h3 {
+    color: white;
+    background-color: #0b5dd7d7;
+    padding: 8px;
+    margin: 2% 0;
+    border-radius: 4px;
+}
+
+#resposta2 {
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#resposta1 {
+    text-align: right;
+    font-weight: bolder;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/icone_balanca.png" type="image/x-icon">
+    <title>Peso ideal</title>
+</head>
+<body>
+
+ 
+    <h1>
+        Programa Cálculo de Peso Ideal
+    </h1>
+
+   
+
+
+    <form action="">
+         <p>
+            Nome: 
+            <input type="text" required id="inNome">
+         </p>
+
+         <p>
+            Sexo:
+            <input type="radio" name="sexo" required id="inMasculino"> Masculino 
+            <input type="radio" name="sexo" required id="inFeminino"> Feminino 
+         </p>
+
+         <p>
+            Altura:
+            <input type="number" required min="0" step="0.01" id="inAltura">
+
+         </p>
+
+         <input type="submit" value="Calcular Peso Ideal">
+         <input type="reset" value="Limpar Campos">
+
+
+    </form>
+
+    <br>
+    <h3></h3>
+
+    <img src="imagem/balanca.jpg" alt="Balança de Peso">
+
+    <script src="balanca.js"></script>
+
+
+
+</body>
+</html>

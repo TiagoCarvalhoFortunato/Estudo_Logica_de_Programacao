@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+pre { font-size: 1.2em;}
+.cores-Brasil { color: black; background-image:linear-gradient(to left, green, yellow ); }
+.cores-SaoPaulo { color: rgb(175, 175, 197); background-image:linear-gradient(to left, rgba(255, 0, 0, 0.978), rgb(5, 4, 4) ); }
+.cores-Palmeiras { color: rgb(0, 0, 0); background-image:linear-gradient(to left, rgb(212, 220, 212), rgb(14, 159, 17) ); }
+
+
+#imgClube {
+
+    width: 80px;
+
+}

@@ -1,0 +1,35 @@
+const prompt = require("prompt-sync")()
+console.log("Informe o valor dos Saques ou digite '0' para SAIR")
+
+const saques = []
+
+do{
+    const valor = Number(prompt("Saque R$: "))
+    if (valor== 0){
+        break
+    }
+    saques.push(valor)
+
+    if (valor % 10 == 0){
+        console.log("Saque Realizado com Sucesso!")
+    } else {
+        console.log("ERRO... Valor inválido ( deve ser multiplo de 10 )")
+    }
+
+}while(true)
+
+console.log("\nSaques válidos")
+console.log("-".repeat(40))
+const saqueValido = saques.filter(saque => saque % 10 == 0)
+for (const saque of saqueValido) {
+    console.log(saque.toFixed(2))
+}
+console.log("-".repeat(40))
+const totalSacado = saqueValido.reduce((total, saque) => total + saque, 0)
+console.log(`Total de Saques: R$ ${totalSacado.toFixed(2)}`)
+
+console.log(saques.length)
+console.log(saqueValido.length)
+
+const saquesInvalidos = saques.length - saqueValido.length
+console.log(`\nNº de Tentativas de Saques ( Saques inválidos ): ${saquesInvalidos}`)

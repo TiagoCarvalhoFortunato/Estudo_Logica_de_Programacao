@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônica</title>
+</head>
+<body>
+
+    <h1>Programa Caixa Eletrônica</h1>
+
+    <form action=""> 
+
+        <p>
+            Valor do Saque R$:
+            <input type="number" min="0" step="0.01" required placeholder="R$" id="inSaque">
+        </p>
+        <input type="submit" value="Exibir notas para saque">
+
+    </form>
+
+    <h3 id="notas100"></h3>
+    <h3 id="notas50"></h3>
+    <h3 id="notas10"></h3>
+
+    <script src="caixa.js"></script>
+
+</body>
+</html>
